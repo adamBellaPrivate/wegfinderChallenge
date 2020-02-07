@@ -11,6 +11,26 @@
 		E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0C23ED53B200C97FFF /* Assets.xcassets */; };
 		E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0E23ED53B200C97FFF /* LaunchScreen.storyboard */; };
 		E448BA1B23ED53B200C97FFF /* WegfinderChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */; };
+		E448BA3423ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3323ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift */; };
+		E448BA3623ED5EA600C97FFF /* CitySelectorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3523ED5EA600C97FFF /* CitySelectorRouter.swift */; };
+		E448BA3823ED5EE600C97FFF /* CitySelectorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3723ED5EE600C97FFF /* CitySelectorInteractor.swift */; };
+		E448BA3A23ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3923ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift */; };
+		E448BA3C23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3B23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift */; };
+		E448BA3E23ED5FAF00C97FFF /* CitySelectorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3D23ED5FAF00C97FFF /* CitySelectorPresenter.swift */; };
+		E448BA4023ED5FBD00C97FFF /* CitySelectorPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3F23ED5FBD00C97FFF /* CitySelectorPresenterProtocol.swift */; };
+		E448BA4323ED60A200C97FFF /* CitySelectorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA4223ED60A200C97FFF /* CitySelectorViewProtocol.swift */; };
+		E448BA4623ED60DD00C97FFF /* CitySelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA4423ED60DD00C97FFF /* CitySelectorViewController.swift */; };
+		E448BA4723ED60DD00C97FFF /* CitySelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E448BA4523ED60DD00C97FFF /* CitySelectorViewController.xib */; };
+		E448BA4B23ED61A500C97FFF /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA4A23ED61A500C97FFF /* BaseViewControllerProtocol.swift */; };
+		E448BA4D23ED61B800C97FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA4C23ED61B800C97FFF /* BaseViewController.swift */; };
+		E448BA4F23ED61CB00C97FFF /* BasePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA4E23ED61CB00C97FFF /* BasePresenterProtocol.swift */; };
+		E448BA5123ED61F200C97FFF /* CitySelectorSceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5023ED61F200C97FFF /* CitySelectorSceneBuilder.swift */; };
+		E448BA5323ED625600C97FFF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5223ED625600C97FFF /* StringExtension.swift */; };
+		E448BA5523ED626800C97FFF /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5423ED626800C97FFF /* UIViewControllerExtension.swift */; };
+		E448BA5723ED627E00C97FFF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5623ED627E00C97FFF /* UIViewExtension.swift */; };
+		E448BA5C23ED62E100C97FFF /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5B23ED62E100C97FFF /* AppStyle.swift */; };
+		E448BA5E23ED660A00C97FFF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448BA5D23ED660900C97FFF /* Colors.xcassets */; };
+		E448BA6223ED6A6F00C97FFF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E448BA6123ED6A6F00C97FFF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +52,26 @@
 		E448BA1623ED53B200C97FFF /* WegfinderChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegfinderChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegfinderChallengeTests.swift; sourceTree = "<group>"; };
 		E448BA1C23ED53B200C97FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E448BA3323ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorRouterProtocol.swift; sourceTree = "<group>"; };
+		E448BA3523ED5EA600C97FFF /* CitySelectorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorRouter.swift; sourceTree = "<group>"; };
+		E448BA3723ED5EE600C97FFF /* CitySelectorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorInteractor.swift; sourceTree = "<group>"; };
+		E448BA3923ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorInteractorProtocol.swift; sourceTree = "<group>"; };
+		E448BA3B23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorInteractorOutput.swift; sourceTree = "<group>"; };
+		E448BA3D23ED5FAF00C97FFF /* CitySelectorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorPresenter.swift; sourceTree = "<group>"; };
+		E448BA3F23ED5FBD00C97FFF /* CitySelectorPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorPresenterProtocol.swift; sourceTree = "<group>"; };
+		E448BA4223ED60A200C97FFF /* CitySelectorViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorViewProtocol.swift; sourceTree = "<group>"; };
+		E448BA4423ED60DD00C97FFF /* CitySelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorViewController.swift; sourceTree = "<group>"; };
+		E448BA4523ED60DD00C97FFF /* CitySelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitySelectorViewController.xib; sourceTree = "<group>"; };
+		E448BA4A23ED61A500C97FFF /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		E448BA4C23ED61B800C97FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E448BA4E23ED61CB00C97FFF /* BasePresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenterProtocol.swift; sourceTree = "<group>"; };
+		E448BA5023ED61F200C97FFF /* CitySelectorSceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorSceneBuilder.swift; sourceTree = "<group>"; };
+		E448BA5223ED625600C97FFF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E448BA5423ED626800C97FFF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E448BA5623ED627E00C97FFF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E448BA5B23ED62E100C97FFF /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		E448BA5D23ED660900C97FFF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E448BA6123ED6A6F00C97FFF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				E448BA2923ED553300C97FFF /* Extensions */,
+				E448BA5823ED62A300C97FFF /* Style */,
 				E448BA2823ED552E00C97FFF /* Models */,
 				E448BA2A23ED554400C97FFF /* Workers */,
 				E448BA2623ED54FF00C97FFF /* Scene */,
@@ -97,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				E448BA0C23ED53B200C97FFF /* Assets.xcassets */,
+				E448BA5D23ED660900C97FFF /* Colors.xcassets */,
+				E448BA6123ED6A6F00C97FFF /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -104,7 +147,9 @@
 		E448BA2623ED54FF00C97FFF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				E448BA4123ED5FE000C97FFF /* BaseScene */,
 				E448BA2723ED550900C97FFF /* Launch */,
+				E448BA2C23ED5DE300C97FFF /* CitySelector */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -127,6 +172,9 @@
 		E448BA2923ED553300C97FFF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E448BA5223ED625600C97FFF /* StringExtension.swift */,
+				E448BA5423ED626800C97FFF /* UIViewControllerExtension.swift */,
+				E448BA5623ED627E00C97FFF /* UIViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -136,6 +184,98 @@
 			children = (
 			);
 			path = Workers;
+			sourceTree = "<group>";
+		};
+		E448BA2C23ED5DE300C97FFF /* CitySelector */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA3223ED5E4800C97FFF /* SceneBuilder */,
+				E448BA3023ED5E0800C97FFF /* View */,
+				E448BA2E23ED5DFD00C97FFF /* Presenter */,
+				E448BA2D23ED5DF600C97FFF /* Interactor */,
+				E448BA3123ED5E4000C97FFF /* Router */,
+			);
+			path = CitySelector;
+			sourceTree = "<group>";
+		};
+		E448BA2D23ED5DF600C97FFF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA3723ED5EE600C97FFF /* CitySelectorInteractor.swift */,
+				E448BA3923ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift */,
+				E448BA3B23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E448BA2E23ED5DFD00C97FFF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA3D23ED5FAF00C97FFF /* CitySelectorPresenter.swift */,
+				E448BA3F23ED5FBD00C97FFF /* CitySelectorPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E448BA3023ED5E0800C97FFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA4223ED60A200C97FFF /* CitySelectorViewProtocol.swift */,
+				E448BA4423ED60DD00C97FFF /* CitySelectorViewController.swift */,
+				E448BA4523ED60DD00C97FFF /* CitySelectorViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E448BA3123ED5E4000C97FFF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA3523ED5EA600C97FFF /* CitySelectorRouter.swift */,
+				E448BA3323ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E448BA3223ED5E4800C97FFF /* SceneBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA5023ED61F200C97FFF /* CitySelectorSceneBuilder.swift */,
+			);
+			path = SceneBuilder;
+			sourceTree = "<group>";
+		};
+		E448BA4123ED5FE000C97FFF /* BaseScene */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA4823ED618500C97FFF /* View */,
+				E448BA4923ED619300C97FFF /* Presenter */,
+			);
+			path = BaseScene;
+			sourceTree = "<group>";
+		};
+		E448BA4823ED618500C97FFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA4A23ED61A500C97FFF /* BaseViewControllerProtocol.swift */,
+				E448BA4C23ED61B800C97FFF /* BaseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E448BA4923ED619300C97FFF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA4E23ED61CB00C97FFF /* BasePresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E448BA5823ED62A300C97FFF /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA5B23ED62E100C97FFF /* AppStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +360,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E448BA6223ED6A6F00C97FFF /* Localizable.strings in Resources */,
+				E448BA4723ED60DD00C97FFF /* CitySelectorViewController.xib in Resources */,
+				E448BA5E23ED660A00C97FFF /* Colors.xcassets in Resources */,
 				E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */,
 				E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */,
 			);
@@ -260,7 +403,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E448BA5123ED61F200C97FFF /* CitySelectorSceneBuilder.swift in Sources */,
+				E448BA4323ED60A200C97FFF /* CitySelectorViewProtocol.swift in Sources */,
+				E448BA5323ED625600C97FFF /* StringExtension.swift in Sources */,
+				E448BA3823ED5EE600C97FFF /* CitySelectorInteractor.swift in Sources */,
+				E448BA5523ED626800C97FFF /* UIViewControllerExtension.swift in Sources */,
+				E448BA3E23ED5FAF00C97FFF /* CitySelectorPresenter.swift in Sources */,
+				E448BA4023ED5FBD00C97FFF /* CitySelectorPresenterProtocol.swift in Sources */,
+				E448BA3423ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift in Sources */,
+				E448BA5723ED627E00C97FFF /* UIViewExtension.swift in Sources */,
+				E448BA4D23ED61B800C97FFF /* BaseViewController.swift in Sources */,
+				E448BA3623ED5EA600C97FFF /* CitySelectorRouter.swift in Sources */,
 				E448BA0423ED53AD00C97FFF /* AppDelegate.swift in Sources */,
+				E448BA3A23ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift in Sources */,
+				E448BA4623ED60DD00C97FFF /* CitySelectorViewController.swift in Sources */,
+				E448BA4B23ED61A500C97FFF /* BaseViewControllerProtocol.swift in Sources */,
+				E448BA5C23ED62E100C97FFF /* AppStyle.swift in Sources */,
+				E448BA4F23ED61CB00C97FFF /* BasePresenterProtocol.swift in Sources */,
+				E448BA3C23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
