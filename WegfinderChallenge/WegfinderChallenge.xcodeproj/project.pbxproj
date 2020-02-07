@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E448BA0423ED53AD00C97FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA0323ED53AD00C97FFF /* AppDelegate.swift */; };
+		E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0C23ED53B200C97FFF /* Assets.xcassets */; };
+		E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0E23ED53B200C97FFF /* LaunchScreen.storyboard */; };
+		E448BA1B23ED53B200C97FFF /* WegfinderChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E448BA1723ED53B200C97FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E448B9F823ED53AD00C97FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E448B9FF23ED53AD00C97FFF;
+			remoteInfo = WegfinderChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E448BA0023ED53AD00C97FFF /* WegfinderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WegfinderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E448BA0323ED53AD00C97FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E448BA0C23ED53B200C97FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E448BA0F23ED53B200C97FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E448BA1123ED53B200C97FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E448BA1623ED53B200C97FFF /* WegfinderChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegfinderChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegfinderChallengeTests.swift; sourceTree = "<group>"; };
+		E448BA1C23ED53B200C97FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E448B9FD23ED53AD00C97FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E448BA1323ED53B200C97FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E448B9F723ED53AD00C97FFF = {
+			isa = PBXGroup;
+			children = (
+				E448BA0223ED53AD00C97FFF /* WegfinderChallenge */,
+				E448BA1923ED53B200C97FFF /* WegfinderChallengeTests */,
+				E448BA0123ED53AD00C97FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E448BA0123ED53AD00C97FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA0023ED53AD00C97FFF /* WegfinderChallenge.app */,
+				E448BA1623ED53B200C97FFF /* WegfinderChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E448BA0223ED53AD00C97FFF /* WegfinderChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA2923ED553300C97FFF /* Extensions */,
+				E448BA2823ED552E00C97FFF /* Models */,
+				E448BA2A23ED554400C97FFF /* Workers */,
+				E448BA2623ED54FF00C97FFF /* Scene */,
+				E448BA2523ED548D00C97FFF /* Resources */,
+				E448BA0323ED53AD00C97FFF /* AppDelegate.swift */,
+				E448BA1123ED53B200C97FFF /* Info.plist */,
+			);
+			path = WegfinderChallenge;
+			sourceTree = "<group>";
+		};
+		E448BA1923ED53B200C97FFF /* WegfinderChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */,
+				E448BA1C23ED53B200C97FFF /* Info.plist */,
+			);
+			path = WegfinderChallengeTests;
+			sourceTree = "<group>";
+		};
+		E448BA2523ED548D00C97FFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA0C23ED53B200C97FFF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E448BA2623ED54FF00C97FFF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA2723ED550900C97FFF /* Launch */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E448BA2723ED550900C97FFF /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA0E23ED53B200C97FFF /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E448BA2823ED552E00C97FFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E448BA2923ED553300C97FFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E448BA2A23ED554400C97FFF /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E448B9FF23ED53AD00C97FFF /* WegfinderChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E448BA1F23ED53B200C97FFF /* Build configuration list for PBXNativeTarget "WegfinderChallenge" */;
+			buildPhases = (
+				E448B9FC23ED53AD00C97FFF /* Sources */,
+				E448B9FD23ED53AD00C97FFF /* Frameworks */,
+				E448B9FE23ED53AD00C97FFF /* Resources */,
+				E448BA2B23ED559C00C97FFF /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WegfinderChallenge;
+			productName = WegfinderChallenge;
+			productReference = E448BA0023ED53AD00C97FFF /* WegfinderChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E448BA1523ED53B200C97FFF /* WegfinderChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E448BA2223ED53B200C97FFF /* Build configuration list for PBXNativeTarget "WegfinderChallengeTests" */;
+			buildPhases = (
+				E448BA1223ED53B200C97FFF /* Sources */,
+				E448BA1323ED53B200C97FFF /* Frameworks */,
+				E448BA1423ED53B200C97FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E448BA1823ED53B200C97FFF /* PBXTargetDependency */,
+			);
+			name = WegfinderChallengeTests;
+			productName = WegfinderChallengeTests;
+			productReference = E448BA1623ED53B200C97FFF /* WegfinderChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E448B9F823ED53AD00C97FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bella Ádám";
+				TargetAttributes = {
+					E448B9FF23ED53AD00C97FFF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E448BA1523ED53B200C97FFF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E448B9FF23ED53AD00C97FFF;
+					};
+				};
+			};
+			buildConfigurationList = E448B9FB23ED53AD00C97FFF /* Build configuration list for PBXProject "WegfinderChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E448B9F723ED53AD00C97FFF;
+			productRefGroup = E448BA0123ED53AD00C97FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E448B9FF23ED53AD00C97FFF /* WegfinderChallenge */,
+				E448BA1523ED53B200C97FFF /* WegfinderChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E448B9FE23ED53AD00C97FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */,
+				E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E448BA1423ED53B200C97FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E448BA2B23ED559C00C97FFF /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E448B9FC23ED53AD00C97FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E448BA0423ED53AD00C97FFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E448BA1223ED53B200C97FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E448BA1B23ED53B200C97FFF /* WegfinderChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E448BA1823ED53B200C97FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E448B9FF23ED53AD00C97FFF /* WegfinderChallenge */;
+			targetProxy = E448BA1723ED53B200C97FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E448BA0E23ED53B200C97FFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E448BA0F23ED53B200C97FFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E448BA1D23ED53B200C97FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E448BA1E23ED53B200C97FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E448BA2023ED53B200C97FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WegfinderChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bella.WegfinderChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E448BA2123ED53B200C97FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WegfinderChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bella.WegfinderChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E448BA2323ED53B200C97FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WegfinderChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bella.WegfinderChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WegfinderChallenge.app/WegfinderChallenge";
+			};
+			name = Debug;
+		};
+		E448BA2423ED53B200C97FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WegfinderChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bella.WegfinderChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WegfinderChallenge.app/WegfinderChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E448B9FB23ED53AD00C97FFF /* Build configuration list for PBXProject "WegfinderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E448BA1D23ED53B200C97FFF /* Debug */,
+				E448BA1E23ED53B200C97FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E448BA1F23ED53B200C97FFF /* Build configuration list for PBXNativeTarget "WegfinderChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E448BA2023ED53B200C97FFF /* Debug */,
+				E448BA2123ED53B200C97FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E448BA2223ED53B200C97FFF /* Build configuration list for PBXNativeTarget "WegfinderChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E448BA2323ED53B200C97FFF /* Debug */,
+				E448BA2423ED53B200C97FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E448B9F823ED53AD00C97FFF /* Project object */;
+}
