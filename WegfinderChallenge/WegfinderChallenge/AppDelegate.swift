@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        setupNavigationBarAppearance()
         setupRootViewController()
 
         return true
@@ -28,6 +29,10 @@ private extension AppDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = ItemListSceneBuilder().buildScene().presentable.embedInNavigationController()
         window?.makeKeyAndVisible()
+    }
+
+    final func setupNavigationBarAppearance() {
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: AppStyle.Color.textPrimary as Any]
     }
 
 }

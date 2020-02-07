@@ -6,20 +6,26 @@
 //  Copyright © 2020 Bella Ádám. All rights reserved.
 //
 
+import Foundation
+
 class CitySelectorPresenter {
 
     weak var view: CitySelectorViewProtocol?
     let interactor: CitySelectorInteractorProtocol
     let router: CitySelectorRouterProtocol
 
+    private let errorWorker: ErrorWorkerProtocol
+
     // MARK: - Lifecycle functions
 
     init(view: CitySelectorViewProtocol,
          interactor: CitySelectorInteractorProtocol,
-         router: CitySelectorRouterProtocol) {
+         router: CitySelectorRouterProtocol,
+         errorWorker: ErrorWorkerProtocol) {
         self.view = view
         self.interactor = interactor
         self.router = router
+        self.errorWorker = errorWorker
     }
 
 }
@@ -29,11 +35,11 @@ class CitySelectorPresenter {
 extension CitySelectorPresenter: CitySelectorPresenterProtocol {
 
     final func viewDidLoad() {
-
+        interactor.loadCityList()
     }
 
-    final func navigateToDetails() {
-        router.navigateToDetails()
+    final func navigateToDetails(on city: City) {
+        router.navigateToDetails(on: city)
     }
 
 }
@@ -42,12 +48,17 @@ extension CitySelectorPresenter: CitySelectorPresenterProtocol {
 
 extension CitySelectorPresenter: CitySelectorInteractorOutput {
 
-    func onDidLoadCityListSuccess() {
-        #warning("TODO")
+    final func onDidLoadCityListSuccess(with items: [City]) {
+        Thread.executeOnMain { [weak self] in
+            self?.view?.onShowSceneViewModel(with: CitySelectorViewModel(cityList: items))
+        }
     }
 
-    func onDidLoadCityListFailure(with error: Error) {
-        #warning("TODO")
+    final func onDidLoadCityListFailure(with error: Error) {
+        let errorMessage = errorWorker.perform(error: error)
+        Thread.executeOnMain { [weak self] in
+            self?.view?.onShowFailureAlert(with: errorMessage)
+        }
     }
 
 }

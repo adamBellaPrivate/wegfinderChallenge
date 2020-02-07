@@ -9,3 +9,14 @@
 // MARK: - Global strings
 
 button.ok.title = "Ok";
+
+// MARK: - Errors
+
+general_error = "General error";
+business_error = "Business error: %d";
+file_reading_error = "File reading error";
+unknown_error = "Unknown error";
+
+// MARK: - City selector scene
+
+scene.city_selector.title = "Cities";

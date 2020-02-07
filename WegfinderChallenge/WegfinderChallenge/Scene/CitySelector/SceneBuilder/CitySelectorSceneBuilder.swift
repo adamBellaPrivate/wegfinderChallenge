@@ -10,8 +10,11 @@ struct ItemListSceneBuilder {
 
     func buildScene() -> CitySelectorViewProtocol {
         let view = CitySelectorViewController()
-        var interactor: CitySelectorInteractorProtocol = CitySelectorInteractor()
-        let presenter = CitySelectorPresenter(view: view, interactor: interactor, router: CitySelectorRouter(view: view))
+        var interactor: CitySelectorInteractorProtocol = CitySelectorInteractor(fileWorker: FileWorker())
+        let presenter = CitySelectorPresenter(view: view,
+                                              interactor: interactor,
+                                              router: CitySelectorRouter(view: view),
+                                              errorWorker: ErrorWorker())
 
         view.presenter = presenter
         interactor.output = presenter

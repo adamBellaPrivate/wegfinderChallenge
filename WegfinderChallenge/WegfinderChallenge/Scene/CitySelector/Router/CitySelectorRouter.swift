@@ -22,7 +22,7 @@ class CitySelectorRouter {
 
 extension CitySelectorRouter: CitySelectorRouterProtocol {
 
-    final func navigateToDetails() {
+    final func navigateToDetails(on city: City) {
         #warning("TODO")
     }
 

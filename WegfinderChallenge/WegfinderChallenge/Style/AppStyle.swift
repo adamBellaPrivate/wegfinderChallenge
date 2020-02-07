@@ -12,6 +12,8 @@ enum AppStyle {
 
     enum Color {
 
+        static let sceneBackground = UIColor(named: "sceneBackground")
+        static let cellSeparator = UIColor(named: "cellSeparator")
         static let textPrimary = UIColor(named: "textPrimary")
 
     }

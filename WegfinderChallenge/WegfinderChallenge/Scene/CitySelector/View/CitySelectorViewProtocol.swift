@@ -10,7 +10,7 @@ protocol CitySelectorViewProtocol: BaseViewControllerProtocol {
 
     var presenter: CitySelectorPresenterProtocol? { get set }
 
-    func onShowSceneViewModel()
+    func onShowSceneViewModel(with viewModel: CitySelectorViewModel)
     func onShowFailureAlert(with message: String)
 
 }

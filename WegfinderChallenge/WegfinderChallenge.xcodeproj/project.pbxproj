@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42630CF23ED6ED30067DA43 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630CE23ED6ED30067DA43 /* City.swift */; };
+		E42630D123ED6EEE0067DA43 /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = E42630D023ED6EED0067DA43 /* CityList.json */; };
+		E42630D623ED724D0067DA43 /* CitySelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630D523ED724D0067DA43 /* CitySelectorViewModel.swift */; };
+		E42630D823ED74690067DA43 /* ThreadExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630D723ED74690067DA43 /* ThreadExtension.swift */; };
+		E42630DA23ED75520067DA43 /* ErrorWorkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630D923ED75520067DA43 /* ErrorWorkerProtocol.swift */; };
+		E42630DC23ED76010067DA43 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630DB23ED76010067DA43 /* Dynamic.swift */; };
+		E42630E023ED78570067DA43 /* CityListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630DE23ED78570067DA43 /* CityListItemTableViewCell.swift */; };
+		E42630E123ED78570067DA43 /* CityListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E42630DF23ED78570067DA43 /* CityListItemTableViewCell.xib */; };
+		E42630E323ED7A310067DA43 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630E223ED7A310067DA43 /* BaseTableViewCell.swift */; };
+		E42630E623ED80060067DA43 /* ErrorWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630E523ED80060067DA43 /* ErrorWorkerTests.swift */; };
+		E42630E823ED80120067DA43 /* FileWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630E723ED80120067DA43 /* FileWorkerTests.swift */; };
+		E42630EB23ED82060067DA43 /* CitySelectorPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630EA23ED82060067DA43 /* CitySelectorPresenterTests.swift */; };
+		E42630ED23ED84BC0067DA43 /* CitySelectorInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42630EC23ED84BC0067DA43 /* CitySelectorInteractorTests.swift */; };
 		E448BA0423ED53AD00C97FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA0323ED53AD00C97FFF /* AppDelegate.swift */; };
 		E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0C23ED53B200C97FFF /* Assets.xcassets */; };
 		E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E448BA0E23ED53B200C97FFF /* LaunchScreen.storyboard */; };
-		E448BA1B23ED53B200C97FFF /* WegfinderChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */; };
 		E448BA3423ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3323ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift */; };
 		E448BA3623ED5EA600C97FFF /* CitySelectorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3523ED5EA600C97FFF /* CitySelectorRouter.swift */; };
 		E448BA3823ED5EE600C97FFF /* CitySelectorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA3723ED5EE600C97FFF /* CitySelectorInteractor.swift */; };
@@ -31,6 +43,9 @@
 		E448BA5C23ED62E100C97FFF /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA5B23ED62E100C97FFF /* AppStyle.swift */; };
 		E448BA5E23ED660A00C97FFF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E448BA5D23ED660900C97FFF /* Colors.xcassets */; };
 		E448BA6223ED6A6F00C97FFF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E448BA6123ED6A6F00C97FFF /* Localizable.strings */; };
+		E448BA6423ED6D2D00C97FFF /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA6323ED6D2D00C97FFF /* FileWorker.swift */; };
+		E448BA6623ED6D4600C97FFF /* FileWorkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA6523ED6D4600C97FFF /* FileWorkerProtocol.swift */; };
+		E448BA6823ED6D7900C97FFF /* ErrorWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E448BA6723ED6D7900C97FFF /* ErrorWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +59,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E42630CE23ED6ED30067DA43 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E42630D023ED6EED0067DA43 /* CityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CityList.json; sourceTree = "<group>"; };
+		E42630D523ED724D0067DA43 /* CitySelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorViewModel.swift; sourceTree = "<group>"; };
+		E42630D723ED74690067DA43 /* ThreadExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadExtension.swift; sourceTree = "<group>"; };
+		E42630D923ED75520067DA43 /* ErrorWorkerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWorkerProtocol.swift; sourceTree = "<group>"; };
+		E42630DB23ED76010067DA43 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		E42630DE23ED78570067DA43 /* CityListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListItemTableViewCell.swift; sourceTree = "<group>"; };
+		E42630DF23ED78570067DA43 /* CityListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityListItemTableViewCell.xib; sourceTree = "<group>"; };
+		E42630E223ED7A310067DA43 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		E42630E523ED80060067DA43 /* ErrorWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWorkerTests.swift; sourceTree = "<group>"; };
+		E42630E723ED80120067DA43 /* FileWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorkerTests.swift; sourceTree = "<group>"; };
+		E42630EA23ED82060067DA43 /* CitySelectorPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorPresenterTests.swift; sourceTree = "<group>"; };
+		E42630EC23ED84BC0067DA43 /* CitySelectorInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorInteractorTests.swift; sourceTree = "<group>"; };
 		E448BA0023ED53AD00C97FFF /* WegfinderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WegfinderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E448BA0323ED53AD00C97FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E448BA0C23ED53B200C97FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E448BA0F23ED53B200C97FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E448BA1123ED53B200C97FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E448BA1623ED53B200C97FFF /* WegfinderChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WegfinderChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WegfinderChallengeTests.swift; sourceTree = "<group>"; };
 		E448BA1C23ED53B200C97FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E448BA3323ED5E7A00C97FFF /* CitySelectorRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorRouterProtocol.swift; sourceTree = "<group>"; };
 		E448BA3523ED5EA600C97FFF /* CitySelectorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySelectorRouter.swift; sourceTree = "<group>"; };
@@ -72,6 +99,9 @@
 		E448BA5B23ED62E100C97FFF /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		E448BA5D23ED660900C97FFF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E448BA6123ED6A6F00C97FFF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E448BA6323ED6D2D00C97FFF /* FileWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorker.swift; sourceTree = "<group>"; };
+		E448BA6523ED6D4600C97FFF /* FileWorkerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorkerProtocol.swift; sourceTree = "<group>"; };
+		E448BA6723ED6D7900C97FFF /* ErrorWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +122,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E42630D423ED72410067DA43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E42630D523ED724D0067DA43 /* CitySelectorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E42630DD23ED78410067DA43 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E42630DE23ED78570067DA43 /* CityListItemTableViewCell.swift */,
+				E42630DF23ED78570067DA43 /* CityListItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E42630E423ED7FEA0067DA43 /* WorkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E42630E523ED80060067DA43 /* ErrorWorkerTests.swift */,
+				E42630E723ED80120067DA43 /* FileWorkerTests.swift */,
+			);
+			path = WorkerTests;
+			sourceTree = "<group>";
+		};
+		E42630E923ED81E50067DA43 /* CitySelector */ = {
+			isa = PBXGroup;
+			children = (
+				E42630EA23ED82060067DA43 /* CitySelectorPresenterTests.swift */,
+				E42630EC23ED84BC0067DA43 /* CitySelectorInteractorTests.swift */,
+			);
+			path = CitySelector;
+			sourceTree = "<group>";
+		};
 		E448B9F723ED53AD00C97FFF = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +193,8 @@
 		E448BA1923ED53B200C97FFF /* WegfinderChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				E448BA1A23ED53B200C97FFF /* WegfinderChallengeTests.swift */,
+				E42630E923ED81E50067DA43 /* CitySelector */,
+				E42630E423ED7FEA0067DA43 /* WorkerTests */,
 				E448BA1C23ED53B200C97FFF /* Info.plist */,
 			);
 			path = WegfinderChallengeTests;
@@ -140,6 +206,7 @@
 				E448BA0C23ED53B200C97FFF /* Assets.xcassets */,
 				E448BA5D23ED660900C97FFF /* Colors.xcassets */,
 				E448BA6123ED6A6F00C97FFF /* Localizable.strings */,
+				E42630D023ED6EED0067DA43 /* CityList.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,6 +232,8 @@
 		E448BA2823ED552E00C97FFF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E42630CE23ED6ED30067DA43 /* City.swift */,
+				E42630DB23ED76010067DA43 /* Dynamic.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +244,7 @@
 				E448BA5223ED625600C97FFF /* StringExtension.swift */,
 				E448BA5423ED626800C97FFF /* UIViewControllerExtension.swift */,
 				E448BA5623ED627E00C97FFF /* UIViewExtension.swift */,
+				E42630D723ED74690067DA43 /* ThreadExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,6 +252,8 @@
 		E448BA2A23ED554400C97FFF /* Workers */ = {
 			isa = PBXGroup;
 			children = (
+				E448BA6B23ED6D8C00C97FFF /* ErrorWorker */,
+				E448BA6A23ED6D8500C97FFF /* FileWorker */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -220,6 +292,8 @@
 		E448BA3023ED5E0800C97FFF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E42630DD23ED78410067DA43 /* Cell */,
+				E42630D423ED72410067DA43 /* ViewModel */,
 				E448BA4223ED60A200C97FFF /* CitySelectorViewProtocol.swift */,
 				E448BA4423ED60DD00C97FFF /* CitySelectorViewController.swift */,
 				E448BA4523ED60DD00C97FFF /* CitySelectorViewController.xib */,
@@ -258,6 +332,7 @@
 			children = (
 				E448BA4A23ED61A500C97FFF /* BaseViewControllerProtocol.swift */,
 				E448BA4C23ED61B800C97FFF /* BaseViewController.swift */,
+				E42630E223ED7A310067DA43 /* BaseTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +351,24 @@
 				E448BA5B23ED62E100C97FFF /* AppStyle.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		E448BA6A23ED6D8500C97FFF /* FileWorker */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA6323ED6D2D00C97FFF /* FileWorker.swift */,
+				E448BA6523ED6D4600C97FFF /* FileWorkerProtocol.swift */,
+			);
+			path = FileWorker;
+			sourceTree = "<group>";
+		};
+		E448BA6B23ED6D8C00C97FFF /* ErrorWorker */ = {
+			isa = PBXGroup;
+			children = (
+				E448BA6723ED6D7900C97FFF /* ErrorWorker.swift */,
+				E42630D923ED75520067DA43 /* ErrorWorkerProtocol.swift */,
+			);
+			path = ErrorWorker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +457,8 @@
 				E448BA4723ED60DD00C97FFF /* CitySelectorViewController.xib in Resources */,
 				E448BA5E23ED660A00C97FFF /* Colors.xcassets in Resources */,
 				E448BA1023ED53B200C97FFF /* LaunchScreen.storyboard in Resources */,
+				E42630E123ED78570067DA43 /* CityListItemTableViewCell.xib in Resources */,
+				E42630D123ED6EEE0067DA43 /* CityList.json in Resources */,
 				E448BA0D23ED53B200C97FFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +500,9 @@
 			files = (
 				E448BA5123ED61F200C97FFF /* CitySelectorSceneBuilder.swift in Sources */,
 				E448BA4323ED60A200C97FFF /* CitySelectorViewProtocol.swift in Sources */,
+				E42630D823ED74690067DA43 /* ThreadExtension.swift in Sources */,
 				E448BA5323ED625600C97FFF /* StringExtension.swift in Sources */,
+				E42630E323ED7A310067DA43 /* BaseTableViewCell.swift in Sources */,
 				E448BA3823ED5EE600C97FFF /* CitySelectorInteractor.swift in Sources */,
 				E448BA5523ED626800C97FFF /* UIViewControllerExtension.swift in Sources */,
 				E448BA3E23ED5FAF00C97FFF /* CitySelectorPresenter.swift in Sources */,
@@ -415,9 +512,17 @@
 				E448BA4D23ED61B800C97FFF /* BaseViewController.swift in Sources */,
 				E448BA3623ED5EA600C97FFF /* CitySelectorRouter.swift in Sources */,
 				E448BA0423ED53AD00C97FFF /* AppDelegate.swift in Sources */,
+				E42630DC23ED76010067DA43 /* Dynamic.swift in Sources */,
 				E448BA3A23ED5EF900C97FFF /* CitySelectorInteractorProtocol.swift in Sources */,
 				E448BA4623ED60DD00C97FFF /* CitySelectorViewController.swift in Sources */,
+				E448BA6423ED6D2D00C97FFF /* FileWorker.swift in Sources */,
+				E448BA6623ED6D4600C97FFF /* FileWorkerProtocol.swift in Sources */,
+				E448BA6823ED6D7900C97FFF /* ErrorWorker.swift in Sources */,
+				E42630E023ED78570067DA43 /* CityListItemTableViewCell.swift in Sources */,
 				E448BA4B23ED61A500C97FFF /* BaseViewControllerProtocol.swift in Sources */,
+				E42630DA23ED75520067DA43 /* ErrorWorkerProtocol.swift in Sources */,
+				E42630CF23ED6ED30067DA43 /* City.swift in Sources */,
+				E42630D623ED724D0067DA43 /* CitySelectorViewModel.swift in Sources */,
 				E448BA5C23ED62E100C97FFF /* AppStyle.swift in Sources */,
 				E448BA4F23ED61CB00C97FFF /* BasePresenterProtocol.swift in Sources */,
 				E448BA3C23ED5F1100C97FFF /* CitySelectorInteractorOutput.swift in Sources */,
@@ -428,7 +533,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E448BA1B23ED53B200C97FFF /* WegfinderChallengeTests.swift in Sources */,
+				E42630EB23ED82060067DA43 /* CitySelectorPresenterTests.swift in Sources */,
+				E42630E623ED80060067DA43 /* ErrorWorkerTests.swift in Sources */,
+				E42630ED23ED84BC0067DA43 /* CitySelectorInteractorTests.swift in Sources */,
+				E42630E823ED80120067DA43 /* FileWorkerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

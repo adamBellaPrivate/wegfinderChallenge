@@ -10,6 +10,12 @@ class CitySelectorInteractor {
 
     weak var output: CitySelectorInteractorOutput?
 
+    private let fileWorker: FileWorkerProtocol
+
+    init(fileWorker: FileWorkerProtocol) {
+        self.fileWorker = fileWorker
+    }
+
 }
 
 // MARK: - Public class's functions
@@ -17,7 +23,14 @@ class CitySelectorInteractor {
 extension CitySelectorInteractor: CitySelectorInteractorProtocol {
 
     final func loadCityList() {
-        #warning("TODO:")
+        fileWorker.fetchCityList { [weak self] result in
+            switch result {
+            case .success(let list):
+                 self?.output?.onDidLoadCityListSuccess(with: list)
+            case .failure(let error):
+                self?.output?.onDidLoadCityListFailure(with: error)
+            }
+        }
     }
 
 }
