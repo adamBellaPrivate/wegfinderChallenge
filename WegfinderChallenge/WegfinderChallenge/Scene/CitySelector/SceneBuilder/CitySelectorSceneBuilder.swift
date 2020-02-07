@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bella Ádám. All rights reserved.
 //
 
-struct ItemListSceneBuilder {
+struct CitySelectorSceneBuilder {
 
     func buildScene() -> CitySelectorViewProtocol {
         let view = CitySelectorViewController()

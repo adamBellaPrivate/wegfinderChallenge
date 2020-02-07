@@ -39,7 +39,9 @@ extension CitySelectorPresenter: CitySelectorPresenterProtocol {
     }
 
     final func navigateToDetails(on city: City) {
-        router.navigateToDetails(on: city)
+        Thread.executeOnMain { [weak self] in
+            self?.router.navigateToDetails(on: city)
+        }
     }
 
 }

@@ -23,7 +23,8 @@ class CitySelectorRouter {
 extension CitySelectorRouter: CitySelectorRouterProtocol {
 
     final func navigateToDetails(on city: City) {
-        #warning("TODO")
+        let targetVC = CityWeatherForecastSceneBuilder().buildScene().presentable
+        view?.presentable.navigationController?.pushViewController(targetVC, animated: true)
     }
 
 }

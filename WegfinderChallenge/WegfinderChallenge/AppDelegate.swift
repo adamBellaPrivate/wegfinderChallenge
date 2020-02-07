@@ -27,11 +27,12 @@ private extension AppDelegate {
 
     final func setupRootViewController() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ItemListSceneBuilder().buildScene().presentable.embedInNavigationController()
+        window?.rootViewController = CitySelectorSceneBuilder().buildScene().presentable.embedInNavigationController()
         window?.makeKeyAndVisible()
     }
 
     final func setupNavigationBarAppearance() {
+        UINavigationBar.appearance().tintColor = AppStyle.Color.textPrimary
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: AppStyle.Color.textPrimary as Any]
     }
 
