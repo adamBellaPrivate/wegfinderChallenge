@@ -20,3 +20,10 @@ unknown_error = "Unknown error";
 // MARK: - City selector scene
 
 scene.city_selector.title = "Cities";
+
+// MARK: - City weather forecast scene
+
+scene.city_weather_forecast.title = "Forecast";
+scene.city_weather_forecast.today = "TODAY";
+scene.city_weather_forecast.tomorrow = "TOMORROW";
+scene.city_weather_forecast.now = "Now";

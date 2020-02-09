@@ -10,7 +10,7 @@ protocol CityWeatherForecastViewProtocol: BaseViewControllerProtocol {
 
     var presenter: CityWeatherForecastPresenterProtocol? { get set }
 
-    func onShowSceneViewModel()
+    func onShowSceneViewModel(with viewModel: CityWeatherForecastViewModel)
     func onShowFailureAlert(with message: String)
 
 }

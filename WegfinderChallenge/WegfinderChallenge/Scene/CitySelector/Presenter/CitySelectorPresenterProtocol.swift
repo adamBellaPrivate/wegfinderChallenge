@@ -12,6 +12,6 @@ protocol CitySelectorPresenterProtocol: BasePresenterProtocol {
     var interactor: CitySelectorInteractorProtocol { get }
     var router: CitySelectorRouterProtocol { get }
 
-    func navigateToDetails(on city: City)
+    func navigateToDetails(on city: Settlement)
 
 }

@@ -10,6 +10,6 @@ protocol CitySelectorRouterProtocol {
 
     var view: CitySelectorViewProtocol? { get }
 
-    func navigateToDetails(on city: City)
+    func navigateToDetails(on city: Settlement)
 
 }

@@ -31,7 +31,7 @@ class CityListItemTableViewCell: BaseTableViewCell {
         lblCityName.text = .none
     }
 
-    final func perform(with city: City) {
+    final func perform(with city: Settlement) {
         lblCityName.text = city.name
     }
 

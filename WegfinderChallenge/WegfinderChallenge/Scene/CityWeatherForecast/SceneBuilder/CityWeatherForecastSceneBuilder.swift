@@ -8,12 +8,14 @@
 
 struct CityWeatherForecastSceneBuilder {
 
-    func buildScene() -> CityWeatherForecastViewProtocol {
+    func buildScene(with city: Settlement) -> CityWeatherForecastViewProtocol {
+        let networkWorker = NetworkWorker()
         let view = CityWeatherForecastViewController()
-        var interactor: CityWeatherForecastInteractorProtocol = CityWeatherForecastInteractor()
+        var interactor: CityWeatherForecastInteractorProtocol = CityWeatherForecastInteractor(networkWorker: networkWorker)
         let presenter = CityWeatherForecastPresenter(view: view,
                                               interactor: interactor,
-                                              errorWorker: ErrorWorker())
+                                              errorWorker: ErrorWorker(),
+                                              initialCity: city)
 
         view.presenter = presenter
         interactor.output = presenter

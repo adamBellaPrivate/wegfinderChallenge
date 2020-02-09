@@ -39,7 +39,7 @@ class CitySelectorPresenterTests: XCTestCase {
     }
 
     func testNavigationTriggerEvent() {
-        presenter?.navigateToDetails(on: City(name: "New York"))
+        presenter?.navigateToDetails(on: Settlement(name: "New York", identifier: "5128638"))
         wait(for: [navigateToDetails], timeout: 5)
     }
 
@@ -69,7 +69,7 @@ extension CitySelectorPresenterTests: CitySelectorRouterProtocol {
         return self
     }
 
-    func navigateToDetails(on city: City) {
+    func navigateToDetails(on city: Settlement) {
         XCTAssertEqual(city.name, "New York")
         navigateToDetails.fulfill()
     }

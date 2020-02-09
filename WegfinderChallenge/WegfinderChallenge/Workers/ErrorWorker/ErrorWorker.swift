@@ -18,6 +18,7 @@ enum AppError: Error {
     case invalidResponse
     case fileReadingError
     case businessError(Int)
+    case missingConfig
     case unknown
 
 }
@@ -33,7 +34,8 @@ struct ErrorWorker: ErrorWorkerProtocol {
 
         switch apiError {
         case .invalidResponse,
-             .invalidApiURL:
+             .invalidApiURL,
+             .missingConfig:
             return "general_error".localized
         case .fileReadingError:
             return "file_reading_error".localized

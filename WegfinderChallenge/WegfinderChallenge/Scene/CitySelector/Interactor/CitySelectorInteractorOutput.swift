@@ -8,7 +8,7 @@
 
 protocol CitySelectorInteractorOutput: class {
 
-    func onDidLoadCityListSuccess(with items: [City])
+    func onDidLoadCityListSuccess(with items: [Settlement])
     func onDidLoadCityListFailure(with error: Error)
 
 }

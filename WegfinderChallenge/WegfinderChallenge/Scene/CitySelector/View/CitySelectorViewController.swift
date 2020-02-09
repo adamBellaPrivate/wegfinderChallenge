@@ -20,7 +20,7 @@ class CitySelectorViewController: BaseViewController {
 
     // MARK: - Private properties
 
-    private let cityList = Dynamic<[City]>([])
+    private let cityList = Dynamic<[Settlement]>([])
 
     // MARK: - Lifecycle functions
 

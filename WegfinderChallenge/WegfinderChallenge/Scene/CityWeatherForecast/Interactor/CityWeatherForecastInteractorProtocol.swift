@@ -10,4 +10,6 @@ protocol CityWeatherForecastInteractorProtocol {
 
     var output: CityWeatherForecastInteractorOutput? { get set }
 
+    func fetchWeatherForecast(by city: Settlement)
+
 }

@@ -8,6 +8,6 @@
 
 protocol FileWorkerProtocol {
 
-    func fetchCityList(_ handler: @escaping (Result<[City], Error>) -> Void)
+    func fetchCityList(_ handler: @escaping (Result<[Settlement], Error>) -> Void)
 
 }

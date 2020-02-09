@@ -23,7 +23,7 @@ struct FileWorker {
 
 extension FileWorker: FileWorkerProtocol {
 
-    func fetchCityList(_ handler: @escaping (Result<[City], Error>) -> Void) {
+    func fetchCityList(_ handler: @escaping (Result<[Settlement], Error>) -> Void) {
         Thread.executeOnBackground(queue: fileWorkerQueue) {
             guard let data = self.loadFileContent(fileName: PrivateConstants.filenameCityList) else {
                 Thread.executeOnMain {
@@ -33,7 +33,7 @@ extension FileWorker: FileWorkerProtocol {
             }
 
             do {
-                let cityList = try JSONDecoder().decode([City].self, from: data)
+                let cityList = try JSONDecoder().decode([Settlement].self, from: data)
                 Thread.executeOnMain {
                     handler(.success(cityList))
                 }

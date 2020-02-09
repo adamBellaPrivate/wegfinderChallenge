@@ -8,6 +8,6 @@
 
 struct CitySelectorViewModel: Codable {
 
-    let cityList: [City]
+    let cityList: [Settlement]
 
 }

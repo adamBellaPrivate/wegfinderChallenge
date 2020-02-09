@@ -38,7 +38,7 @@ extension CitySelectorPresenter: CitySelectorPresenterProtocol {
         interactor.loadCityList()
     }
 
-    final func navigateToDetails(on city: City) {
+    final func navigateToDetails(on city: Settlement) {
         Thread.executeOnMain { [weak self] in
             self?.router.navigateToDetails(on: city)
         }
@@ -50,7 +50,7 @@ extension CitySelectorPresenter: CitySelectorPresenterProtocol {
 
 extension CitySelectorPresenter: CitySelectorInteractorOutput {
 
-    final func onDidLoadCityListSuccess(with items: [City]) {
+    final func onDidLoadCityListSuccess(with items: [Settlement]) {
         Thread.executeOnMain { [weak self] in
             self?.view?.onShowSceneViewModel(with: CitySelectorViewModel(cityList: items))
         }

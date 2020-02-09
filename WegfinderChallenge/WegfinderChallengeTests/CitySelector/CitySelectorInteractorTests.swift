@@ -32,7 +32,7 @@ class CitySelectorInteractorTests: XCTestCase {
 
 extension CitySelectorInteractorTests: CitySelectorInteractorOutput {
 
-    func onDidLoadCityListSuccess(with items: [City]) {
+    func onDidLoadCityListSuccess(with items: [Settlement]) {
         XCTAssertFalse(items.isEmpty)
         XCTAssertEqual(items.count, 6)
         loadCityListExpectation.fulfill()

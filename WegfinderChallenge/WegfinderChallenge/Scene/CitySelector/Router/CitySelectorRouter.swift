@@ -22,8 +22,8 @@ class CitySelectorRouter {
 
 extension CitySelectorRouter: CitySelectorRouterProtocol {
 
-    final func navigateToDetails(on city: City) {
-        let targetVC = CityWeatherForecastSceneBuilder().buildScene().presentable
+    final func navigateToDetails(on city: Settlement) {
+        let targetVC = CityWeatherForecastSceneBuilder().buildScene(with: city).presentable
         view?.presentable.navigationController?.pushViewController(targetVC, animated: true)
     }
 

@@ -8,6 +8,7 @@
 
 protocol CityWeatherForecastInteractorOutput: class {
 
+    func onDidLoadWeatherForecastSuccess(with response: CityWeatherForecastApiResponse)
     func onDidLoadWeatherForecastFailure(with error: Error)
 
 }
