@@ -11,7 +11,8 @@ Hello developer, this is a short tutorial to work on this project
         Terminal command:  
             brew install swiftlint
         More info: https://github.com/realm/SwiftLint
-    - You have to install the cocoapods dependency manager.
+2. You have to install the cocoapods dependency manager.
+    - Cocoapods install.
         Terminal command: 
             sudo gem install cocoapods
         More info: "Install" - https://cocoapods.org
